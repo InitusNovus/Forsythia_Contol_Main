@@ -44,11 +44,11 @@
 #define V0_CONST_A 		-9.2980636458f
 #define V0_CONST_B		100.7315829998f
 #elif PPSMODE == ADC
-#define A0STT		(1.15f)
-#define A0END		(3.20f)
+#define A0STT		(1.50f)
+#define A0END		(3.48f)
 
-#define A1STT		(0.74f)
-#define A1END		(2.00f)
+#define A1STT		(0.93f)
+#define A1END		(2.22f)
 #endif
 
 #define PBERRORLIMIT	10
